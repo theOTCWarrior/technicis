@@ -28,11 +28,9 @@ max(height[:i-1])和max(height[i+1:])之间的最小值
 
 注意到：
 
-leftMax较大时，right处必定能存rightMax量的水
+leftMax较大或相等时，right处必定能存rightMax量的水
 
 rightMax较大时，left处必定能存leftMax量的水
-
-二者相等时，left与right处各结算一次（注意left==right的可能性）
 
 ### 单调栈
 
